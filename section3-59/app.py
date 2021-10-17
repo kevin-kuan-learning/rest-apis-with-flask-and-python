@@ -4,6 +4,18 @@ app = Flask(__name__)
 
 # print(__name__)
 
+stores = [
+    {
+        'name': 'My Wonderful Store',
+        'items': [
+            {
+                'name': 'My Item',
+                'price': 15.99
+            }
+        ]
+    }
+]
+
 
 # POST - used to receive data
 # GET - used to send data back only
