@@ -20,7 +20,7 @@ def get_store(name):
 
 # GET /store
 @app.route('/store', methods=['GET'])
-def get_store():
+def get_stores():
     pass
 
 # POST /store/<string:name>/item {name:, price:}
