@@ -4,6 +4,7 @@ app = Flask(__name__)
 
 # print(__name__)
 
+
 # POST - used to receive data
 # GET - used to send data back only
 
@@ -18,7 +19,7 @@ def get_store(name):
     pass
 
 # GET /store
-@app.route('store', methods=['GET'])
+@app.route('/store', methods=['GET'])
 def get_store():
     pass
 
