@@ -25,7 +25,7 @@ def get_stores():
 
 # POST /store/<string:name>/item {name:, price:}
 @app.route('/store/<string:name>/item', methods=['POST'])
-def create_store(name):
+def create_item_in_store(name):
     pass
 
 # GET /store/<string:name>/item
