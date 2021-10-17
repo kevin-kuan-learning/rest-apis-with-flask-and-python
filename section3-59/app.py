@@ -30,7 +30,7 @@ def create_item_in_store(name):
 
 # GET /store/<string:name>/item
 @app.route('/store/<string:name>/item', methods=['GET'])
-def get_store(name):
+def get_items_in_store(name):
     pass
 
 
